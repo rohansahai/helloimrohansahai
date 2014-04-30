@@ -1,0 +1,18 @@
+application: helloimrohansahai
+version: 1
+runtime: python
+api_version: 1
+
+default_expiration: "7d"
+
+handlers:
+- url: /(.*\.(gif|png|jpg|ico|js|css|swf|xml|wav|pdf|mp3))
+  static_files: \1
+  upload: (.*\.(gif|png|jpg|ico|js|css|swf|xml|wav|pdf|mp3))
+
+- url: /(.*\.html)
+  static_files: \1
+  upload: index.html
+
+- url: /.*
+  script: main.py

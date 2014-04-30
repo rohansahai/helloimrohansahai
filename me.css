@@ -1,0 +1,326 @@
+body {
+	/*background-image:url('polaroid.png');*/
+	/*background-color: #6BCB76;*/
+
+}
+
+#home { 
+	/*background: url(images/home.jpg) 50% 0 no-repeat fixed; */
+	background-color: #6BCB76;
+	height: 1000px;  
+	margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#about { 
+	/*background: url(images/about.jpg) 50% 0 no-repeat fixed; */
+	background-color: #5A7DE6;
+	height: 1000px;
+	margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+#three { 
+	/*background: url(images/about.jpg) 50% 0 no-repeat fixed; */
+	background-color: #94E3DE;
+	height: 1000px;
+	margin: 0 auto; 
+    width: 100%; 
+    max-width: 1920px; 
+    position: relative; 
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+}
+
+
+
+#logo {
+	
+	position: fixed;
+	%left:23%;
+	%width: 640px;
+	top: 220px;
+	left: 50%;
+	margin-left: -320px;
+	/*top:22%;*/
+	
+}
+
+.links {
+	padding-right: 1.5cm;
+}
+
+#links {
+
+	position: relative;
+	top: 41%;
+	width:550px;
+	margin: 0 auto;
+	%margin-left:32px;
+	
+	font-size: 20px; 
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-weight: 300; 
+
+
+}
+
+
+a:link{color:transparent}
+a:active{color:transparent}
+a:visited{color:transparent}
+a:hover{color:transparent}
+
+
+#email { 
+position:absolute;
+width: 130px; 
+height: 133px; 
+line-height: 0px;
+color: transparent; 
+
+text-transform: uppercase; 
+-webkit-transition: all 0.5s ease; 
+-moz-transition: all 0.5s ease; 
+-o-transition: all 0.5s ease; } 
+
+#email:hover { line-height: 180px; color: white;} 
+#email img{ float: left; margin: 0 15px; }
+#email p{position:absolute; left: 15px;}
+
+
+#soundcloud{
+	
+	position: absolute;
+	%right: 305px;
+	left: 28%;
+	width: 130px; 
+	height: 133px; 
+	line-height: 0px; 
+	color: transparent; 
+	text-transform: uppercase; 
+	-webkit-transition: all 0.5s ease; 
+	-moz-transition: all 0.5s ease; 
+	-o-transition: all 0.5s ease; } 
+
+#soundcloud:hover { line-height: 180px; color: white; } 
+#soundcloud img{ float: left; margin: 0 15px; }
+#soundcloud p{position:absolute; left: 15px;}
+
+#resume{
+	
+	position: absolute;
+	%right: 150px;
+	left: 56%;
+	width: 130px; 
+	height: 133px; 
+	line-height: 0px; 
+	color: transparent; 
+	text-transform: uppercase; 
+	-webkit-transition: all 0.5s ease; 
+	-moz-transition: all 0.5s ease; 
+	-o-transition: all 0.5s ease;
+	
+
+}
+
+#resume:hover { line-height: 180px; color: white; } 
+#resume img{ float: left; margin: 0 15px; }
+#resume p{position:absolute; left: 5px;}
+
+#linkedin{
+	
+	position: absolute;
+	%right:0px;
+	left: 83%;
+	width: 130px; 
+	height: 133px; 
+	line-height: 0px; 
+	color: transparent; 
+	text-transform: uppercase; 
+	-webkit-transition: all 0.5s ease; 
+	-moz-transition: all 0.5s ease; 
+	-o-transition: all 0.5s ease;
+	
+}
+
+#linkedin:hover { line-height: 180px; color: white; } 
+#linkedin img{ float: left; margin: 0 15px; }
+#linkedin p{position:absolute; left: 5px;}
+
+#videoCover{
+	position: relative;
+	top:18%;
+	width: 660px;
+	margin: 0 auto;
+	
+	
+	%left:16%
+}
+
+#videoTitle{
+	position: relative;
+    top: 10%;
+    margin: 0 auto;
+    text-align:center;
+	font-family: 'arial';
+	color: white;
+	font-weight: normal;
+	font-size: 24px;
+
+}
+
+#ME {
+	
+	font-family: 'arial';
+	font-size: 4.4em;
+	color: white;
+	line-height: 60px;
+	letter-spacing: -3px;
+	font-weight: normal;
+}
+
+#funk {
+
+	position: absolute;
+	bottom:65%;
+	left:30%;
+	width:40%;
+	
+	text-align:center;
+	font-family: 'arial';
+	color: white;
+	font-weight: normal;
+	font-size: 24px;
+}
+
+
+#menu{
+
+	position: absolute;
+	top: 10%;
+	height: 60%;
+	width: 70%;
+	margin-left: 15%;
+
+}
+
+#help{
+	position: relative;
+	top:80%;
+	width: 500px;
+	margin: 0 auto;
+	color: white;
+	text-align: center;
+	font-family: 'arial';
+}
+
+
+
+#piano{
+	position: absolute;
+	bottom:30%;
+	width: 70%;
+	height: 30%;
+	margin-left: 15%;
+}
+
+.keys {
+
+	width: 12.5%;
+	height: 100%;
+	background-color: white;
+	border: solid;
+
+}
+
+
+.blackKeys {
+	position:absolute;
+	top:3px;
+	width: 8.25%;
+	height: 70%;
+	background-color: black;
+	border:solid;
+	border-top: black;
+	border-color: #E0E4CC;
+	margin-left:.8%;
+}
+
+#blackKey1{
+
+	left:7.5%;
+}
+
+#blackKey2{
+
+	left:20%;
+}
+
+#blackKey3{
+
+	left:45%;
+}
+
+#blackKey4{
+
+	left:57.5%;
+}
+
+#blackKey5{
+
+	left:70%;
+}
+
+#key1{
+	position: absolute;
+	left: 0px;
+}
+
+
+#key2{
+	position: absolute;
+	left:12.5%;
+
+}
+
+#key3{
+	position: absolute;
+	left:25%;
+
+}
+
+#key4{
+	position: absolute;
+	left:37.5%;
+
+}
+
+#key5{
+	position: absolute;
+	left:50%;
+
+}
+
+#key6{
+	position: absolute;
+	left:62.5%;
+
+}
+
+#key7{
+	position: absolute;
+	left:75%;
+
+}
+
+#key8{
+	position: absolute;
+	left:87.5%;
+
+}
